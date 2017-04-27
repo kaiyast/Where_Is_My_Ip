@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B48A46AF1EB24EB6002294A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A46AE1EB24EB6002294A2 /* AppDelegate.swift */; };
+		B48A46B11EB24EB7002294A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A46B01EB24EB7002294A2 /* ViewController.swift */; };
+		B48A46B41EB24EB8002294A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48A46B21EB24EB8002294A2 /* Main.storyboard */; };
+		B48A46B71EB24EBB002294A2 /* WhereIsMyIP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B48A46B51EB24EBA002294A2 /* WhereIsMyIP.xcdatamodeld */; };
+		B48A46B91EB24EBD002294A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48A46B81EB24EBD002294A2 /* Assets.xcassets */; };
+		B48A46BC1EB24EBE002294A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48A46BA1EB24EBE002294A2 /* LaunchScreen.storyboard */; };
+		B48A46C71EB24EC5002294A2 /* WhereIsMyIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A46C61EB24EC5002294A2 /* WhereIsMyIPTests.swift */; };
+		B48A46D21EB24ECE002294A2 /* WhereIsMyIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A46D11EB24ECE002294A2 /* WhereIsMyIPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B48A46C31EB24EC3002294A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B48A46A31EB24EB4002294A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48A46AA1EB24EB5002294A2;
+			remoteInfo = WhereIsMyIP;
+		};
+		B48A46CE1EB24EC8002294A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B48A46A31EB24EB4002294A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48A46AA1EB24EB5002294A2;
+			remoteInfo = WhereIsMyIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B48A46AB1EB24EB5002294A2 /* WhereIsMyIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereIsMyIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48A46AE1EB24EB6002294A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B48A46B01EB24EB7002294A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B48A46B31EB24EB8002294A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B48A46B61EB24EBA002294A2 /* WhereIsMyIP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhereIsMyIP.xcdatamodel; sourceTree = "<group>"; };
+		B48A46B81EB24EBD002294A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B48A46BB1EB24EBE002294A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B48A46BD1EB24EBE002294A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48A46C21EB24EC3002294A2 /* WhereIsMyIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereIsMyIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48A46C61EB24EC5002294A2 /* WhereIsMyIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereIsMyIPTests.swift; sourceTree = "<group>"; };
+		B48A46C81EB24EC8002294A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48A46CD1EB24EC8002294A2 /* WhereIsMyIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereIsMyIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48A46D11EB24ECE002294A2 /* WhereIsMyIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereIsMyIPUITests.swift; sourceTree = "<group>"; };
+		B48A46D31EB24ED1002294A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B48A46A81EB24EB5002294A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48A46BF1EB24EC3002294A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48A46CA1EB24EC8002294A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B48A46A21EB24EB0002294A2 = {
+			isa = PBXGroup;
+			children = (
+				B48A46AD1EB24EB5002294A2 /* WhereIsMyIP */,
+				B48A46C51EB24EC3002294A2 /* WhereIsMyIPTests */,
+				B48A46D01EB24ECA002294A2 /* WhereIsMyIPUITests */,
+				B48A46AC1EB24EB5002294A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B48A46AC1EB24EB5002294A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B48A46AB1EB24EB5002294A2 /* WhereIsMyIP.app */,
+				B48A46C21EB24EC3002294A2 /* WhereIsMyIPTests.xctest */,
+				B48A46CD1EB24EC8002294A2 /* WhereIsMyIPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B48A46AD1EB24EB5002294A2 /* WhereIsMyIP */ = {
+			isa = PBXGroup;
+			children = (
+				B48A46AE1EB24EB6002294A2 /* AppDelegate.swift */,
+				B48A46B01EB24EB7002294A2 /* ViewController.swift */,
+				B48A46B21EB24EB8002294A2 /* Main.storyboard */,
+				B48A46B81EB24EBD002294A2 /* Assets.xcassets */,
+				B48A46BA1EB24EBE002294A2 /* LaunchScreen.storyboard */,
+				B48A46BD1EB24EBE002294A2 /* Info.plist */,
+				B48A46B51EB24EBA002294A2 /* WhereIsMyIP.xcdatamodeld */,
+			);
+			path = WhereIsMyIP;
+			sourceTree = "<group>";
+		};
+		B48A46C51EB24EC3002294A2 /* WhereIsMyIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				B48A46C61EB24EC5002294A2 /* WhereIsMyIPTests.swift */,
+				B48A46C81EB24EC8002294A2 /* Info.plist */,
+			);
+			path = WhereIsMyIPTests;
+			sourceTree = "<group>";
+		};
+		B48A46D01EB24ECA002294A2 /* WhereIsMyIPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B48A46D11EB24ECE002294A2 /* WhereIsMyIPUITests.swift */,
+				B48A46D31EB24ED1002294A2 /* Info.plist */,
+			);
+			path = WhereIsMyIPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B48A46AA1EB24EB5002294A2 /* WhereIsMyIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48A46D61EB24ED2002294A2 /* Build configuration list for PBXNativeTarget "WhereIsMyIP" */;
+			buildPhases = (
+				B48A46A71EB24EB5002294A2 /* Sources */,
+				B48A46A81EB24EB5002294A2 /* Frameworks */,
+				B48A46A91EB24EB5002294A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhereIsMyIP;
+			productName = WhereIsMyIP;
+			productReference = B48A46AB1EB24EB5002294A2 /* WhereIsMyIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B48A46C11EB24EC3002294A2 /* WhereIsMyIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48A46D91EB24ED2002294A2 /* Build configuration list for PBXNativeTarget "WhereIsMyIPTests" */;
+			buildPhases = (
+				B48A46BE1EB24EC3002294A2 /* Sources */,
+				B48A46BF1EB24EC3002294A2 /* Frameworks */,
+				B48A46C01EB24EC3002294A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B48A46C41EB24EC3002294A2 /* PBXTargetDependency */,
+			);
+			name = WhereIsMyIPTests;
+			productName = WhereIsMyIPTests;
+			productReference = B48A46C21EB24EC3002294A2 /* WhereIsMyIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B48A46CC1EB24EC8002294A2 /* WhereIsMyIPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48A46DC1EB24ED2002294A2 /* Build configuration list for PBXNativeTarget "WhereIsMyIPUITests" */;
+			buildPhases = (
+				B48A46C91EB24EC8002294A2 /* Sources */,
+				B48A46CA1EB24EC8002294A2 /* Frameworks */,
+				B48A46CB1EB24EC8002294A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B48A46CF1EB24EC8002294A2 /* PBXTargetDependency */,
+			);
+			name = WhereIsMyIPUITests;
+			productName = WhereIsMyIPUITests;
+			productReference = B48A46CD1EB24EC8002294A2 /* WhereIsMyIPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B48A46A31EB24EB4002294A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "gai lowvapong";
+				TargetAttributes = {
+					B48A46AA1EB24EB5002294A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					B48A46C11EB24EC3002294A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B48A46AA1EB24EB5002294A2;
+					};
+					B48A46CC1EB24EC8002294A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B48A46AA1EB24EB5002294A2;
+					};
+				};
+			};
+			buildConfigurationList = B48A46A61EB24EB4002294A2 /* Build configuration list for PBXProject "WhereIsMyIP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B48A46A21EB24EB0002294A2;
+			productRefGroup = B48A46AC1EB24EB5002294A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B48A46AA1EB24EB5002294A2 /* WhereIsMyIP */,
+				B48A46C11EB24EC3002294A2 /* WhereIsMyIPTests */,
+				B48A46CC1EB24EC8002294A2 /* WhereIsMyIPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B48A46A91EB24EB5002294A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48A46BC1EB24EBE002294A2 /* LaunchScreen.storyboard in Resources */,
+				B48A46B91EB24EBD002294A2 /* Assets.xcassets in Resources */,
+				B48A46B41EB24EB8002294A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48A46C01EB24EC3002294A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48A46CB1EB24EC8002294A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48A46A71EB24EB5002294A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48A46B11EB24EB7002294A2 /* ViewController.swift in Sources */,
+				B48A46AF1EB24EB6002294A2 /* AppDelegate.swift in Sources */,
+				B48A46B71EB24EBB002294A2 /* WhereIsMyIP.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48A46BE1EB24EC3002294A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48A46C71EB24EC5002294A2 /* WhereIsMyIPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48A46C91EB24EC8002294A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48A46D21EB24ECE002294A2 /* WhereIsMyIPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B48A46C41EB24EC3002294A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48A46AA1EB24EB5002294A2 /* WhereIsMyIP */;
+			targetProxy = B48A46C31EB24EC3002294A2 /* PBXContainerItemProxy */;
+		};
+		B48A46CF1EB24EC8002294A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48A46AA1EB24EB5002294A2 /* WhereIsMyIP */;
+			targetProxy = B48A46CE1EB24EC8002294A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B48A46B21EB24EB8002294A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48A46B31EB24EB8002294A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B48A46BA1EB24EBE002294A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48A46BB1EB24EBE002294A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B48A46D41EB24ED1002294A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B48A46D51EB24ED1002294A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B48A46D71EB24ED2002294A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhereIsMyIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.th.Mumu.WhereIsMyIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B48A46D81EB24ED2002294A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhereIsMyIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.th.Mumu.WhereIsMyIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B48A46DA1EB24ED2002294A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WhereIsMyIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.th.Mumu.WhereIsMyIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhereIsMyIP.app/WhereIsMyIP";
+			};
+			name = Debug;
+		};
+		B48A46DB1EB24ED2002294A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WhereIsMyIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.th.Mumu.WhereIsMyIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhereIsMyIP.app/WhereIsMyIP";
+			};
+			name = Release;
+		};
+		B48A46DD1EB24ED2002294A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WhereIsMyIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.th.Mumu.WhereIsMyIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WhereIsMyIP;
+			};
+			name = Debug;
+		};
+		B48A46DE1EB24ED2002294A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WhereIsMyIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.th.Mumu.WhereIsMyIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WhereIsMyIP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B48A46A61EB24EB4002294A2 /* Build configuration list for PBXProject "WhereIsMyIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48A46D41EB24ED1002294A2 /* Debug */,
+				B48A46D51EB24ED1002294A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48A46D61EB24ED2002294A2 /* Build configuration list for PBXNativeTarget "WhereIsMyIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48A46D71EB24ED2002294A2 /* Debug */,
+				B48A46D81EB24ED2002294A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B48A46D91EB24ED2002294A2 /* Build configuration list for PBXNativeTarget "WhereIsMyIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48A46DA1EB24ED2002294A2 /* Debug */,
+				B48A46DB1EB24ED2002294A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B48A46DC1EB24ED2002294A2 /* Build configuration list for PBXNativeTarget "WhereIsMyIPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48A46DD1EB24ED2002294A2 /* Debug */,
+				B48A46DE1EB24ED2002294A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B48A46B51EB24EBA002294A2 /* WhereIsMyIP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B48A46B61EB24EBA002294A2 /* WhereIsMyIP.xcdatamodel */,
+			);
+			currentVersion = B48A46B61EB24EBA002294A2 /* WhereIsMyIP.xcdatamodel */;
+			path = WhereIsMyIP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B48A46A31EB24EB4002294A2 /* Project object */;
+}
