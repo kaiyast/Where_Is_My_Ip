@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B47E41781EB3B2F8000349D4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47E41761EB3B2F8000349D4 /* Bolts.framework */; };
+		B47E41791EB3B2F8000349D4 /* Bolts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B47E41761EB3B2F8000349D4 /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B47E417A1EB3B2F8000349D4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47E41771EB3B2F8000349D4 /* FBSDKCoreKit.framework */; };
+		B47E417B1EB3B2F8000349D4 /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B47E41771EB3B2F8000349D4 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B47E41831EB3B6D3000349D4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47E41821EB3B6D3000349D4 /* FBSDKLoginKit.framework */; };
+		B47E41841EB3B6D3000349D4 /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B47E41821EB3B6D3000349D4 /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B47E41861EB3BD41000349D4 /* IPFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47E41851EB3BD41000349D4 /* IPFormViewController.swift */; };
 		B48A46AF1EB24EB6002294A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A46AE1EB24EB6002294A2 /* AppDelegate.swift */; };
 		B48A46B11EB24EB7002294A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A46B01EB24EB7002294A2 /* ViewController.swift */; };
 		B48A46B41EB24EB8002294A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48A46B21EB24EB8002294A2 /* Main.storyboard */; };
@@ -34,7 +41,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B47E417C1EB3B2F8000349D4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B47E41791EB3B2F8000349D4 /* Bolts.framework in Embed Frameworks */,
+				B47E417B1EB3B2F8000349D4 /* FBSDKCoreKit.framework in Embed Frameworks */,
+				B47E41841EB3B6D3000349D4 /* FBSDKLoginKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B47E41761EB3B2F8000349D4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
+		B47E41771EB3B2F8000349D4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		B47E41821EB3B6D3000349D4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Carthage/Build/iOS/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		B47E41851EB3BD41000349D4 /* IPFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPFormViewController.swift; sourceTree = "<group>"; };
 		B48A46AB1EB24EB5002294A2 /* WhereIsMyIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereIsMyIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48A46AE1EB24EB6002294A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B48A46B01EB24EB7002294A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B47E41781EB3B2F8000349D4 /* Bolts.framework in Frameworks */,
+				B47E417A1EB3B2F8000349D4 /* FBSDKCoreKit.framework in Frameworks */,
+				B47E41831EB3B6D3000349D4 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +109,9 @@
 		B48A46A21EB24EB0002294A2 = {
 			isa = PBXGroup;
 			children = (
+				B47E41821EB3B6D3000349D4 /* FBSDKLoginKit.framework */,
+				B47E41761EB3B2F8000349D4 /* Bolts.framework */,
+				B47E41771EB3B2F8000349D4 /* FBSDKCoreKit.framework */,
 				B48A46AD1EB24EB5002294A2 /* WhereIsMyIP */,
 				B48A46C51EB24EC3002294A2 /* WhereIsMyIPTests */,
 				B48A46D01EB24ECA002294A2 /* WhereIsMyIPUITests */,
@@ -106,6 +139,7 @@
 				B48A46BA1EB24EBE002294A2 /* LaunchScreen.storyboard */,
 				B48A46BD1EB24EBE002294A2 /* Info.plist */,
 				B48A46B51EB24EBA002294A2 /* WhereIsMyIP.xcdatamodeld */,
+				B47E41851EB3BD41000349D4 /* IPFormViewController.swift */,
 			);
 			path = WhereIsMyIP;
 			sourceTree = "<group>";
@@ -138,6 +172,7 @@
 				B48A46A71EB24EB5002294A2 /* Sources */,
 				B48A46A81EB24EB5002294A2 /* Frameworks */,
 				B48A46A91EB24EB5002294A2 /* Resources */,
+				B47E417C1EB3B2F8000349D4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B48A46B11EB24EB7002294A2 /* ViewController.swift in Sources */,
+				B47E41861EB3BD41000349D4 /* IPFormViewController.swift in Sources */,
 				B48A46AF1EB24EB6002294A2 /* AppDelegate.swift in Sources */,
 				B48A46B71EB24EBB002294A2 /* WhereIsMyIP.xcdatamodeld in Sources */,
 			);
@@ -416,6 +452,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = WhereIsMyIP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.th.Mumu.WhereIsMyIP;
@@ -428,6 +469,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = WhereIsMyIP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.th.Mumu.WhereIsMyIP;
@@ -509,6 +555,7 @@
 				B48A46D81EB24ED2002294A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48A46D91EB24ED2002294A2 /* Build configuration list for PBXNativeTarget "WhereIsMyIPTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +564,7 @@
 				B48A46DB1EB24ED2002294A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48A46DC1EB24ED2002294A2 /* Build configuration list for PBXNativeTarget "WhereIsMyIPUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +573,7 @@
 				B48A46DE1EB24ED2002294A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -2,6 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb1334367433319055</string>
+            </array>
+        </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <string>1334367433319055</string>
+    <key>FacebookDisplayName</key>
+    <string>Where_Is_my_ip</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb1334367433319055</string>
+            </array>
+        </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <string>1334367433319055</string>
+    <key>FacebookDisplayName</key>
+    <string>Where_Is_my_ip</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -42,4 +73,16 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
-</plist>
+</plist><key>CFBundleURLTypes</key>
+<array>
+    <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+            <string>fb1334367433319055</string>
+        </array>
+    </dict>
+</array>
+<key>FacebookAppID</key>
+<string>1334367433319055</string>
+<key>FacebookDisplayName</key>
+<string>Where_Is_my_ip</string>
