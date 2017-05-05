@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B47E41781EB3B2F8000349D4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47E41761EB3B2F8000349D4 /* Bolts.framework */; };
-		B47E41791EB3B2F8000349D4 /* Bolts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B47E41761EB3B2F8000349D4 /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B47E417A1EB3B2F8000349D4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47E41771EB3B2F8000349D4 /* FBSDKCoreKit.framework */; };
-		B47E417B1EB3B2F8000349D4 /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B47E41771EB3B2F8000349D4 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B47E41831EB3B6D3000349D4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47E41821EB3B6D3000349D4 /* FBSDKLoginKit.framework */; };
-		B47E41841EB3B6D3000349D4 /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B47E41821EB3B6D3000349D4 /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B47E41861EB3BD41000349D4 /* IPFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47E41851EB3BD41000349D4 /* IPFormViewController.swift */; };
 		B48A46AF1EB24EB6002294A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A46AE1EB24EB6002294A2 /* AppDelegate.swift */; };
 		B48A46B11EB24EB7002294A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A46B01EB24EB7002294A2 /* ViewController.swift */; };
@@ -22,6 +16,7 @@
 		B48A46BC1EB24EBE002294A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48A46BA1EB24EBE002294A2 /* LaunchScreen.storyboard */; };
 		B48A46C71EB24EC5002294A2 /* WhereIsMyIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A46C61EB24EC5002294A2 /* WhereIsMyIPTests.swift */; };
 		B48A46D21EB24ECE002294A2 /* WhereIsMyIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A46D11EB24ECE002294A2 /* WhereIsMyIPUITests.swift */; };
+		DBA74290C244A15C5F10622D /* libPods-WhereIsMyIP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C5E25DB4552D1C54E91029 /* libPods-WhereIsMyIP.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +43,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B47E41791EB3B2F8000349D4 /* Bolts.framework in Embed Frameworks */,
-				B47E417B1EB3B2F8000349D4 /* FBSDKCoreKit.framework in Embed Frameworks */,
-				B47E41841EB3B6D3000349D4 /* FBSDKLoginKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,9 +50,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B47E41761EB3B2F8000349D4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
-		B47E41771EB3B2F8000349D4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		B47E41821EB3B6D3000349D4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Carthage/Build/iOS/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		2747DB83BFB9590C03A61561 /* Pods-WhereIsMyIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereIsMyIP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhereIsMyIP/Pods-WhereIsMyIP.debug.xcconfig"; sourceTree = "<group>"; };
+		66C5E25DB4552D1C54E91029 /* libPods-WhereIsMyIP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhereIsMyIP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC52301F383A4247D671C3F3 /* Pods-WhereIsMyIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereIsMyIP.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhereIsMyIP/Pods-WhereIsMyIP.release.xcconfig"; sourceTree = "<group>"; };
 		B47E41851EB3BD41000349D4 /* IPFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPFormViewController.swift; sourceTree = "<group>"; };
 		B48A46AB1EB24EB5002294A2 /* WhereIsMyIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereIsMyIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48A46AE1EB24EB6002294A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,9 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B47E41781EB3B2F8000349D4 /* Bolts.framework in Frameworks */,
-				B47E417A1EB3B2F8000349D4 /* FBSDKCoreKit.framework in Frameworks */,
-				B47E41831EB3B6D3000349D4 /* FBSDKLoginKit.framework in Frameworks */,
+				DBA74290C244A15C5F10622D /* libPods-WhereIsMyIP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,16 +96,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D69A76F64717EBC8EDD0A0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66C5E25DB4552D1C54E91029 /* libPods-WhereIsMyIP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85B8897CD2B5FAA1BDC6CCD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2747DB83BFB9590C03A61561 /* Pods-WhereIsMyIP.debug.xcconfig */,
+				AC52301F383A4247D671C3F3 /* Pods-WhereIsMyIP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B48A46A21EB24EB0002294A2 = {
 			isa = PBXGroup;
 			children = (
-				B47E41821EB3B6D3000349D4 /* FBSDKLoginKit.framework */,
-				B47E41761EB3B2F8000349D4 /* Bolts.framework */,
-				B47E41771EB3B2F8000349D4 /* FBSDKCoreKit.framework */,
 				B48A46AD1EB24EB5002294A2 /* WhereIsMyIP */,
 				B48A46C51EB24EC3002294A2 /* WhereIsMyIPTests */,
 				B48A46D01EB24ECA002294A2 /* WhereIsMyIPUITests */,
 				B48A46AC1EB24EB5002294A2 /* Products */,
+				85B8897CD2B5FAA1BDC6CCD1 /* Pods */,
+				4D69A76F64717EBC8EDD0A0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,10 +175,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B48A46D61EB24ED2002294A2 /* Build configuration list for PBXNativeTarget "WhereIsMyIP" */;
 			buildPhases = (
+				6C80BF75758EF2519F2ACD4F /* [CP] Check Pods Manifest.lock */,
 				B48A46A71EB24EB5002294A2 /* Sources */,
 				B48A46A81EB24EB5002294A2 /* Frameworks */,
 				B48A46A91EB24EB5002294A2 /* Resources */,
 				B47E417C1EB3B2F8000349D4 /* Embed Frameworks */,
+				BAB4B261F283DC020F1B752E /* [CP] Embed Pods Frameworks */,
+				6283F6315BA1BC831F5D45B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,6 +300,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6283F6315BA1BC831F5D45B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhereIsMyIP/Pods-WhereIsMyIP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C80BF75758EF2519F2ACD4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAB4B261F283DC020F1B752E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhereIsMyIP/Pods-WhereIsMyIP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B48A46A71EB24EB5002294A2 /* Sources */ = {
@@ -450,12 +507,15 @@
 		};
 		B48A46D71EB24ED2002294A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2747DB83BFB9590C03A61561 /* Pods-WhereIsMyIP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Pods/GoogleSignIn/Frameworks",
+					"$(PROJECT_DIR)/Pods/Google/Frameworks",
 				);
 				INFOPLIST_FILE = WhereIsMyIP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -467,12 +527,15 @@
 		};
 		B48A46D81EB24ED2002294A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC52301F383A4247D671C3F3 /* Pods-WhereIsMyIP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Pods/GoogleSignIn/Frameworks",
+					"$(PROJECT_DIR)/Pods/Google/Frameworks",
 				);
 				INFOPLIST_FILE = WhereIsMyIP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
