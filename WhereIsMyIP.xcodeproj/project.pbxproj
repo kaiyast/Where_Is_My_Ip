@@ -16,7 +16,7 @@
 		B48A46BC1EB24EBE002294A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48A46BA1EB24EBE002294A2 /* LaunchScreen.storyboard */; };
 		B48A46C71EB24EC5002294A2 /* WhereIsMyIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A46C61EB24EC5002294A2 /* WhereIsMyIPTests.swift */; };
 		B48A46D21EB24ECE002294A2 /* WhereIsMyIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48A46D11EB24ECE002294A2 /* WhereIsMyIPUITests.swift */; };
-		DBA74290C244A15C5F10622D /* libPods-WhereIsMyIP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C5E25DB4552D1C54E91029 /* libPods-WhereIsMyIP.a */; };
+		B4F993FC1EC037B300B09613 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F993FB1EC037B300B09613 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,6 @@
 
 /* Begin PBXFileReference section */
 		2747DB83BFB9590C03A61561 /* Pods-WhereIsMyIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereIsMyIP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhereIsMyIP/Pods-WhereIsMyIP.debug.xcconfig"; sourceTree = "<group>"; };
-		66C5E25DB4552D1C54E91029 /* libPods-WhereIsMyIP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhereIsMyIP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC52301F383A4247D671C3F3 /* Pods-WhereIsMyIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereIsMyIP.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhereIsMyIP/Pods-WhereIsMyIP.release.xcconfig"; sourceTree = "<group>"; };
 		B47E41851EB3BD41000349D4 /* IPFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPFormViewController.swift; sourceTree = "<group>"; };
 		B48A46AB1EB24EB5002294A2 /* WhereIsMyIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereIsMyIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +67,7 @@
 		B48A46CD1EB24EC8002294A2 /* WhereIsMyIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereIsMyIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48A46D11EB24ECE002294A2 /* WhereIsMyIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereIsMyIPUITests.swift; sourceTree = "<group>"; };
 		B48A46D31EB24ED1002294A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F993FB1EC037B300B09613 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA74290C244A15C5F10622D /* libPods-WhereIsMyIP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,14 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D69A76F64717EBC8EDD0A0B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				66C5E25DB4552D1C54E91029 /* libPods-WhereIsMyIP.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		85B8897CD2B5FAA1BDC6CCD1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,7 +112,6 @@
 				B48A46D01EB24ECA002294A2 /* WhereIsMyIPUITests */,
 				B48A46AC1EB24EB5002294A2 /* Products */,
 				85B8897CD2B5FAA1BDC6CCD1 /* Pods */,
-				4D69A76F64717EBC8EDD0A0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +136,7 @@
 				B48A46BD1EB24EBE002294A2 /* Info.plist */,
 				B48A46B51EB24EBA002294A2 /* WhereIsMyIP.xcdatamodeld */,
 				B47E41851EB3BD41000349D4 /* IPFormViewController.swift */,
+				B4F993FB1EC037B300B09613 /* HistoryViewController.swift */,
 			);
 			path = WhereIsMyIP;
 			sourceTree = "<group>";
@@ -357,6 +348,7 @@
 				B48A46B11EB24EB7002294A2 /* ViewController.swift in Sources */,
 				B47E41861EB3BD41000349D4 /* IPFormViewController.swift in Sources */,
 				B48A46AF1EB24EB6002294A2 /* AppDelegate.swift in Sources */,
+				B4F993FC1EC037B300B09613 /* HistoryViewController.swift in Sources */,
 				B48A46B71EB24EBB002294A2 /* WhereIsMyIP.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

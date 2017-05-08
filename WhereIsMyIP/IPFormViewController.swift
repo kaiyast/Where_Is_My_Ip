@@ -8,8 +8,12 @@
 
 import UIKit
 import GoogleMaps
+import CoreData
 
 class IPFormViewController: UIViewController {
+
+   
+    
 
     var ip:String = "Nodata"
     var country_name:String = "Nodata"
@@ -19,7 +23,7 @@ class IPFormViewController: UIViewController {
     var time_zone:String = "Nodata"
     var latitude:Double = 0.0
     var longitude:Double = 0.0
-    var mapView = GMSMapView.map(withFrame: CGRect.zero, camera: GMSCameraPosition.camera(withLatitude: 0, longitude: 0, zoom: 6.0))
+
     
     @IBOutlet weak var ip_show: UILabel!
     
@@ -33,16 +37,15 @@ class IPFormViewController: UIViewController {
     @IBOutlet weak var long_show: UILabel!
     
     @IBOutlet weak var Googlemap_view: GMSMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-        // Create a GMSCameraPosition that tells the map to display the
-        // coordinate -33.86,151.20 at zoom level 6.
-        let camera = GMSCameraPosition.camera(withLatitude: self.latitude, longitude: self.longitude, zoom: 6.0)
-        Googlemap_view = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
-      
-        
+       
+        let camera = GMSCameraPosition.camera(withLatitude: 1.285, longitude: 103.848, zoom: 12)
+
+        self.Googlemap_view.camera = camera
+     
 
         // Do any additional setup after loading the view.
     }
@@ -56,7 +59,9 @@ class IPFormViewController: UIViewController {
 
     @IBOutlet weak var iptextfield: UITextField!
     @IBAction func FindLocation(_ sender: Any) {
+        
         let input_ip = iptextfield.text!
+          self.SaveHistory(ip: input_ip)
         let url = URL(string: "http://freegeoip.net/json/"+input_ip)
         
         let task = URLSession.shared.dataTask(with: url!) { (data, res, err) in
@@ -101,7 +106,7 @@ class IPFormViewController: UIViewController {
                         self.lat_show.text = String(self.latitude)
                         self.long_show.text = String(self.longitude)
 
-
+                      
                     }catch
                         
                     {
@@ -128,7 +133,21 @@ class IPFormViewController: UIViewController {
         }
         task.resume()
 
-       
+        let camera = GMSCameraPosition.camera(withLatitude: self.latitude, longitude: self.longitude, zoom: 12)
+        
+        self.Googlemap_view.camera = camera
+    }
+    
+    func SaveHistory(ip:String) -> Void {
+      
+  var Histroy_arr = [String]()
+        
+  if(UserDefaults.standard.object(forKey: "Historys") != nil)
+  { Histroy_arr = UserDefaults.standard.object(forKey: "Historys") as! [String] }
+  
+        Histroy_arr.append(ip)
+        
+        UserDefaults.standard.set(Histroy_arr, forKey: "Historys")
     }
     /*
     // MARK: - Navigation
